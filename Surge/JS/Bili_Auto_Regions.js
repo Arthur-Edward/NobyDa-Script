@@ -125,7 +125,7 @@ function SwitchStatus(status, original, newPolicy) {
 	} else if (original === 3) {
 		return `切换失败, 不支持您的VPN应用版本 ⚠️`
 	} else if (status === 0) {
-		return `切换失败, 子策略名未填写或填写有误 ⚠️`
+		return `切换失败, 子策略名未填写或填写有误（test） ⚠️`
 	} else {
 		return `策略切换失败, 未知错误 ⚠️`
 	}
